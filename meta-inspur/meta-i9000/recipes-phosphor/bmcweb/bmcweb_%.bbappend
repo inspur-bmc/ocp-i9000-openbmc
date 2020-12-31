@@ -1,7 +1,7 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 PV = "1.0"
 SRC_URI = "git://github.com/inspur-bmc/ocp-i9000-bmcweb;protocol=https"
-SRCREV = "f3cc7255951cbf745b1bbb2c917e7af149466c27"
+SRCREV = "79b8550361f504a8099be24df1960f550e001696"
 S = "${WORKDIR}/build"
 LICENSE = "CLOSED"
 DEPENDS += "libevdev"
